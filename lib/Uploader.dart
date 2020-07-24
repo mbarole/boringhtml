@@ -33,7 +33,7 @@ class _UploaderState extends State<Uploader> {
   }
 
   void apiCall(imageURL) async {
-    String url = 'https://b21dded48a76.ngrok.io/flutter';
+    String url = 'https://4261d9a37c7d.ngrok.io/flutter';
     Map data = {'key1': imageURL};
     String body = json.encode(data);
     http.Response response = await http.post(

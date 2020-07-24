@@ -34,7 +34,11 @@ class _ImageCaptureState extends State<ImageCapture> {
     setState(() => _imageFile = null);
   }
 
- 
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   _pickImage(ImageSource.camera);
+  // }
 
   @override
   Widget build(BuildContext context) {
